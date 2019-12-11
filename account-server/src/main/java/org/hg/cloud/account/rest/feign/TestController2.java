@@ -19,4 +19,8 @@ public class TestController2 {
     public String testCommonServer2(){
         return testService.test();
     }
+    @RequestMapping("/testCommonFall")
+    public String testCommonFall(){
+        return testService.testFall();
+    }
 }
