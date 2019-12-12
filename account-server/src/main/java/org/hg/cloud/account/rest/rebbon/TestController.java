@@ -1,4 +1,4 @@
-package org.hg.cloud.account.org.hg.cloud.account.rest.rebbon;
+package org.hg.cloud.account.rest.rebbon;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +16,7 @@ import org.springframework.web.client.RestTemplate;
 public class TestController {
     @Autowired
     private RestTemplate restTemplate;
+
     @RequestMapping(value = "/testCommonServer", method = RequestMethod.GET)
     public String testCommonServer(){
         ResponseEntity<String> forEntity = restTemplate.getForEntity("http://common-server/test/", String.class);
