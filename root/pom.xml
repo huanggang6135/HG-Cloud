@@ -23,7 +23,7 @@
         <project.build.targetEncoding>UTF-8</project.build.targetEncoding>
         <spring.boot.version>2.2.0</spring.boot.version>
         <spring-cloud.version>Hoxton.RC1</spring-cloud.version>
-        <lomhok.version>1.18.10</lomhok.version>
+        <lombok.version>1.18.10</lombok.version>
         <hg-cloud.version>1.0-SNAPSHOT</hg-cloud.version>
     </properties>
 
